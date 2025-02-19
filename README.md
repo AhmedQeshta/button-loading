@@ -39,9 +39,12 @@ cd btn-loading
 
 ## Demo
 1. Before clicking
+
 ![image](https://github.com/user-attachments/assets/82938d46-5f76-40b2-824d-b5c84f5b21cc)
 
+
 2. After clicking
+   
 ![image](https://github.com/user-attachments/assets/02a798e1-88d5-4cdd-b9a5-c9ad3a5afda2)
 
 
