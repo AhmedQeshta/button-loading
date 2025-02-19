@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(29, 29, 29, 0.822);
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+
+.btn-byNow{
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.25rem;
+    background-color: #a36ed4;
+    border: none;
+    box-shadow: 1px 1px 3px #af7edd5e;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    display: flex;
+    transition: all ease-in-out 0.3s;
+    justify-content: center;
+    align-items: center;
+    min-width: 150px;
+    max-width: 200px;
+}
+.btn-byNowloading{
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.25rem;
+    background-color: #c5afdb;
+    border: none;
+    box-shadow: 1px 1px 3px #b5b0b95e;
+    cursor: not-allowed;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    display: flex;
+    transition: all ease-in-out 0.3s;
+    justify-content: center;
+    align-items: center;
+    min-width: 150px;
+    max-width: 200px;
+}
+.btn-body{
+    display: inline-flex;
+    transition: all ease-in-out 0.3s;
+}
+.btn-byNow .btn-title{
+    margin-right: 0.25rem;
+    transition: all ease-in-out 0.3s;
+}
+
+.btn-byNow .btn-icon{
+    margin-left: 0.25rem;
+    transition: all ease-in-out 0.3s;
+}
+
+@media (hover:hover) {
+    .btn-byNow:hover {
+        background-color: #8255ac;
+        box-shadow: 1px 1px 3px #caa3ee49;
+    }
+}
+
+.icon-loaded{
+    animation:spin 4s linear infinite;
+}
+
+@-moz-keyframes spin { 
+    100% {
+         -moz-transform: rotate(360deg);
+         } 
+}
+@-webkit-keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+    } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
+
+/* btn-icon-loading */ 
+.btn-icon-loading{
+    transition: all ease-in-out 0.3s;
+    display: none;
+}
